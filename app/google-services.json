@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051861662954",
+    "project_id": "wemeetauth",
+    "storage_bucket": "wemeetauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051861662954:android:2ae1d3295ab78dc2ab6b93",
+        "android_client_info": {
+          "package_name": "com.SoftEng.wemeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051861662954-ljs9gdatu4aogvues17jjbb46njrcp1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp7xdb3xOZtb1Un-Ly-oVWfw7CmiA64fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051861662954-ljs9gdatu4aogvues17jjbb46njrcp1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

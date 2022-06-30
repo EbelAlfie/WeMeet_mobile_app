@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profileFrag"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".home.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/profFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="78dp"
+                android:layout_height="89dp"
+                android:src="@drawable/ic_baseline_account_circle_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/displayName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/playfairdisplayregular"
+                    android:text="@string/text_username"
+                    android:textColor="#000000"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/displayEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/playfairdisplayregular"
+                    android:text="@string/prompt_email"
+                    android:textColor="#787676"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/webinarModify"
+                style="@android:style/Widget.Holo.Button.Borderless.Small"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfairdisplayregular"
+                android:text="Modify webinar"
+                android:textColor="#000000"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/editProfile_txtbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.Holo.Button.Borderless.Small"
+                android:gravity="left"
+                android:fontFamily="@font/playfairdisplayregular"
+                android:text="Edit profile"
+                android:textColor="#040303"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/btntxt_deleteacc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.Holo.Button.Borderless.Small"
+                android:gravity="left"
+                android:fontFamily="@font/playfairdisplayregular"
+                android:text="Delete Account"
+                android:textColor="#090505"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/btn_logOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/playfairdisplayregular"
+                android:textColor="@color/black"
+                android:text="Log out" />
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewProf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="@string/Banner_id" />
+    </LinearLayout>
+
+</FrameLayout>

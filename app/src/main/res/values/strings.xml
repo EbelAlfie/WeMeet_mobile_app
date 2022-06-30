@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">WeMeet</string>
+    <string name="text_emailname">Email:</string>
+    <string name="prompt_email">Email</string>
+    <string name="text_password">Password:</string>
+    <string name="prompt_password">Password</string>
+    <string name="text_username">User name:</string>
+    <string name="hint_user_name">User name</string>
+    <string name="text_retypePassword">Retype password:</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="welcome">"Welcome ! "</string>
+    <string name="greetings">Welcome, </string>
+
+    <string name="text_create_account">Create account</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_remember_password">Remember password?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="btn_loginback">Back to log in page</string>
+
+    <string name="title">Webinar Title</string>
+    <string name="pembicara">Speaker:</string>
+    <string name="nama_pembicara">speaker</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="fee">Fee:</string>
+    <string name="e_certificate">E-certificate:</string>
+    <string name="link">Link:</string>
+    <string name="defImg">Default image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_navbar">Home</string>
+    <string name="account_navbar">Account</string>
+    <string name="calendar_navbar">Webinar Schedules</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="link_registrasi">Link registrasi:</string>
+    <string name="Banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interAdId">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>
